@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:title="Cyber Shield"
+        app:titleTextColor="@android:color/white"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/shield"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Upload File Button -->
+    <Button
+        android:id="@+id/btn_file_scan"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="📂 Upload File and Detect Spam"
+        android:textSize="20sp"
+        android:background="@drawable/glassmorphism_button"
+        android:textColor="@android:color/white"
+        android:elevation="8dp"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Website Security Button -->
+    <Button
+        android:id="@+id/btn_website_security"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="🌐 Website Security Detection"
+        android:textSize="20sp"
+        android:background="@drawable/glassmorphism_button"
+        android:textColor="@android:color/white"
+        android:elevation="8dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_file_scan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- WiFi Security Button -->
+    <Button
+        android:id="@+id/btn_wifi_security"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="📶 WiFi Security Analysis"
+        android:textSize="20dp"
+        android:background="@drawable/glassmorphism_button"
+        android:textColor="@android:color/white"
+        android:elevation="8dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_website_security"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Footer -->
+    <TextView
+        android:id="@+id/footer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cyber Shield - Protecting You"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

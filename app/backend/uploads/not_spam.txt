@@ -1,0 +1,4 @@
+Hello John,
+I hope you're doing well. Let's schedule a meeting next week to discuss the project updates.
+Best regards,
+Alex
