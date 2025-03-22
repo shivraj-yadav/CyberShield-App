@@ -24,16 +24,6 @@
 | 📶 **WiFi Security Analysis** | Scans WiFi encryption (WPA/WEP/Open) and warns users of security risks. |
 
 ### 📸 Screenshots  
-*(Add GIFs or screenshots here to showcase the app's UI and functionality.)*
-
----
-
-## ⚙️ How It Works  
-1️⃣ **User uploads a file** → CyberShield scans it via Flask API.  
-2️⃣ **User enters a website URL** → The app checks SSL, blacklist, and security headers.  
-3️⃣ **User connects to WiFi** → The app analyzes encryption type and network security.  
-
-## Cyber Shield
 <div align="center">
   <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
     <img src="https://github.com/shivraj-yadav/CyberShield-App/raw/main/image1.jpg" width="380" style="margin-right: 20px;" />
@@ -43,6 +33,14 @@
   </div>
   
 </div>
+
+---
+
+## ⚙️ How It Works  
+1️⃣ **User uploads a file** → CyberShield scans it via Flask API.  
+2️⃣ **User enters a website URL** → The app checks SSL, blacklist, and security headers.  
+3️⃣ **User connects to WiFi** → The app analyzes encryption type and network security.  
+
 ---
 
 ## 🔧 Technologies Used  
@@ -53,19 +51,7 @@
 
 ---
 
-## 📂 Project Structure  
-```
-CyberShield-App/
-│-- app/src/main/java/com/example/cybershield/ 
-│   ├── FileScanActivity.java  # File Spam Detection
-│   ├── WebsiteSecurityActivity.java  # Website Security Analysis
-│   ├── WifiSecurityActivity.java  # WiFi Security Check
-│-- backend/  # Flask Server for File Scan API
-│-- README.md
-│-- LICENSE
-```
 
----
 
 ## 📦 Installation & Usage  
 1️⃣ **Clone the repository:**  
@@ -86,13 +72,6 @@ CyberShield-App/
 🔹 **File Spam Detection:** Select and upload a file → Get scan results.  
 🔹 **Website Security Check:** Enter a URL → See security details.  
 🔹 **WiFi Security Analysis:** Connect to WiFi → Scan encryption and network security.  
-
----
-
-## 🚀 Future Enhancements  
-✅ **AI-powered threat detection** using machine learning.  
-✅ **Dark mode and enhanced UI improvements.**  
-✅ **More detailed security analysis & real-time alerts.**  
 
 ---
 
